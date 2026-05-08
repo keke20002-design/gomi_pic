@@ -2,8 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(flutter *)",
-      "Bash(curl -s -X POST \"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=AIzaSyCeK9_bJ-2Sgglxbgd1q6z_EeEc1EHefpU\" -H \"Content-Type: application/json\" -d '{\"contents\":[{\"role\":\"user\",\"parts\":[{\"text\":\"日本語で「テスト成功」とだけ返してください\"}]}],\"tools\":[{\"google_search\":{}}]}')",
-      "Bash(curl -s -X POST \"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=AIzaSyCeK9_bJ-2Sgglxbgd1q6z_EeEc1EHefpU\" -H \"Content-Type: application/json\" -d '{\"contents\":[{\"role\":\"user\",\"parts\":[{\"text\":\"Reply with exactly: OK\"}]}],\"tools\":[{\"google_search\":{}}]}')",
+      
+      
       "Read(//c/Users/test/**)",
       "Read(//e//**)"
     ]
